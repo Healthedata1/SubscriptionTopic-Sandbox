@@ -1,0 +1,23 @@
+[
+  {
+    "id" : "us-core-encounter",
+    "type" : "SubscriptionTopic",
+    "url" : "http://hl7.org/fhir/us/core/SubscriptionTopic/us-core-encounter",
+    "version" : "0.0.0",
+    "name" : "USCoreEncounterSubscriptionTopic"
+  },
+  {
+    "id" : "us-core-immunization",
+    "type" : "SubscriptionTopic",
+    "url" : "http://hl7.org/fhir/us/core/SubscriptionTopic/us-core-immunization",
+    "version" : "0.0.0",
+    "name" : "USCoreImmunizationSubscriptionTopic"
+  },
+  {
+    "id" : "hl7.fhir.us.subscriptiontopic-sandbox",
+    "type" : "ImplementationGuide",
+    "url" : "http://hl7.org/fhir/us/subscription-sandbox/ImplementationGuide/hl7.fhir.us.subscriptiontopic-sandbox",
+    "version" : "0.0.0",
+    "name" : "STSandbox"
+  }
+]

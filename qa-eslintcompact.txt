@@ -1,0 +1,24 @@
+STSandbox
+=========================================
+
+Generic: line 0, col 0, Error - There is no jira specification file defined with the expected name of FHIR-us-subscriptiontopic-sandbox in the xml folder of the  https://github.com/HL7/Jira-Spec-Artifacts project.  This must exist before ballot or publication. (INFORMATIONAL)
+Generic: line 0, col 0, Error - The link 'subscriptionTopic-cdex-task-update.xml' for "raw xml" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'subscriptionTopic-cdex-task-update.json' for "raw json" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'subscriptionTopic-cdex-task-update.xml' for "raw xml" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'subscriptionTopic-cdex-task-update.json' for "raw json" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Warning - The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide (NOTFOUND)
+Generic: line 0, col 0, Warning - An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide (NOTFOUND)
+Generic: line 0, col 0, Warning - An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide (NOTFOUND)
+Generic: line 0, col 0, Warning - The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide (NOTFOUND)
+/home/runner/work/SubscriptionTopic-Sandbox/SubscriptionTopic-Sandbox/fsh-generated/resources/ImplementationGuide-hl7.fhir.us.subscriptiontopic-sandbox.json: line 1, col 16706, Error - When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension (BUSINESSRULE)
+/home/runner/work/SubscriptionTopic-Sandbox/SubscriptionTopic-Sandbox/input/resources/SubscriptionTopic-us-core-encounter.json: line 0, col 0, Error - Conformance resource /home/runner/work/SubscriptionTopic-Sandbox/SubscriptionTopic-Sandbox/input/resources/SubscriptionTopic-us-core-encounter.json - the canonical URL (http://hl7.org/fhir/us/subscription-sandbox/SubscriptionTopic/us-core-encounter) does not match the URL (http://hl7.org/fhir/us/core/SubscriptionTopic/us-core-encounter) (INVALID)
+/home/runner/work/SubscriptionTopic-Sandbox/SubscriptionTopic-Sandbox/input/resources/SubscriptionTopic-us-core-encounter.json: line 1, col 3692, Error - SubscriptionTopic.eventTrigger.event: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/SubscriptionTopic|5.0.0) (STRUCTURE)
+/home/runner/work/SubscriptionTopic-Sandbox/SubscriptionTopic-Sandbox/input/resources/SubscriptionTopic-us-core-encounter.json: line 1, col 3692, Error - SubscriptionTopic.eventTrigger.resource: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/SubscriptionTopic|5.0.0) (STRUCTURE)
+/home/runner/work/SubscriptionTopic-Sandbox/SubscriptionTopic-Sandbox/input/resources/SubscriptionTopic-us-core-encounter.json: line 0, col 0, Error - URL Mismatch http://hl7.org/fhir/us/subscription-sandbox/SubscriptionTopic/us-core-encounter vs http://hl7.org/fhir/us/core/SubscriptionTopic/us-core-encounter (BUSINESSRULE)
+/home/runner/work/SubscriptionTopic-Sandbox/SubscriptionTopic-Sandbox/input/resources/SubscriptionTopic-us-core-immunization.json: line 0, col 0, Error - Conformance resource /home/runner/work/SubscriptionTopic-Sandbox/SubscriptionTopic-Sandbox/input/resources/SubscriptionTopic-us-core-immunization.json - the canonical URL (http://hl7.org/fhir/us/subscription-sandbox/SubscriptionTopic/us-core-immunization) does not match the URL (http://hl7.org/fhir/us/core/SubscriptionTopic/us-core-immunization) (INVALID)
+/home/runner/work/SubscriptionTopic-Sandbox/SubscriptionTopic-Sandbox/input/resources/SubscriptionTopic-us-core-immunization.json: line 1, col 3705, Error - SubscriptionTopic.eventTrigger.event: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/SubscriptionTopic|5.0.0) (STRUCTURE)
+/home/runner/work/SubscriptionTopic-Sandbox/SubscriptionTopic-Sandbox/input/resources/SubscriptionTopic-us-core-immunization.json: line 1, col 3705, Error - SubscriptionTopic.eventTrigger.resource: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/SubscriptionTopic|5.0.0) (STRUCTURE)
+/home/runner/work/SubscriptionTopic-Sandbox/SubscriptionTopic-Sandbox/input/resources/SubscriptionTopic-us-core-immunization.json: line 0, col 0, Error - URL Mismatch http://hl7.org/fhir/us/subscription-sandbox/SubscriptionTopic/us-core-immunization vs http://hl7.org/fhir/us/core/SubscriptionTopic/us-core-immunization (BUSINESSRULE)
+
+err = 10, warn = 4, info = 0
+IG Publisher Version: 1.6.20

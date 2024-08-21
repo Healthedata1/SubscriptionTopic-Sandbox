@@ -1,0 +1,19 @@
+{
+  "url" : "http://hl7.org/fhir/us/subscription-sandbox/ImplementationGuide/hl7.fhir.us.subscriptiontopic-sandbox",
+  "name" : "STSandbox",
+  "title" : "ST Sandbox",
+  "description" : "This is a sandbox IG for drafting SubscriptionTopic",
+  "status" : "active",
+  "package-id" : "hl7.fhir.us.subscriptiontopic-sandbox",
+  "ig-ver" : "0.0.0",
+  "date" : "Wed, 21 Aug, 2024 17:48:32 +0000",
+  "dateISO8601" : "2024-08-21T17:48:32+00:00",
+  "errs" : 10,
+  "warnings" : 4,
+  "hints" : 0,
+  "suppressed-hints" : 0,
+  "suppressed-warnings" : 0,
+  "version" : "4.0.1",
+  "tool" : "5.0.0 (3)",
+  "maxMemory" : 2673471280
+}

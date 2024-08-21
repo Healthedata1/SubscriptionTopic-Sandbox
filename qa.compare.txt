@@ -1,0 +1,33 @@
+STSandbox : Validation Results
+=========================================
+
+err = 10, warn = 4, info = 0
+$--
+Generated $--. FHIR version $-- for hl7.fhir.us.subscriptiontopic-sandbox#$-- (canonical = http://hl7.org/fhir/us/subscription-sandbox)
+ Build Errors : 5 / 4 / 0
+ /home/runner/work/SubscriptionTopic-Sandbox/SubscriptionTopic-Sandbox/fsh-generated/resources/ImplementationGuide-hl7.fhir.us.subscriptiontopic-sandbox : 1 / 0 / 1
+ /home/runner/work/SubscriptionTopic-Sandbox/SubscriptionTopic-Sandbox/input/resources/SubscriptionTopic-us-core-encounter : 4 / 0 / 1
+ /home/runner/work/SubscriptionTopic-Sandbox/SubscriptionTopic-Sandbox/input/resources/SubscriptionTopic-us-core-immunization : 4 / 0 / 1
+</table>
+== n/a ==
+ERROR: There is no jira specification file defined with the expected name of FHIR-us-subscriptiontopic-sandbox in the xml folder of the  https://github.com/HL7/Jira-Spec-Artifacts project.  This must exist before ballot or publication.
+ERROR: /home/runner/work/SubscriptionTopic-Sandbox/SubscriptionTopic-Sandbox/output/SubscriptionTopic-us-core-encounter.html#/html/body/div/div/div/div/div/div/p/a at Line 199, column 305: The link 'subscriptionTopic-cdex-task-update.xml' for "raw xml" cannot be resolved
+ERROR: /home/runner/work/SubscriptionTopic-Sandbox/SubscriptionTopic-Sandbox/output/SubscriptionTopic-us-core-encounter.html#/html/body/div/div/div/div/div/div/p/a at Line 199, column 374: The link 'subscriptionTopic-cdex-task-update.json' for "raw json" cannot be resolved
+ERROR: /home/runner/work/SubscriptionTopic-Sandbox/SubscriptionTopic-Sandbox/output/SubscriptionTopic-us-core-immunization.html#/html/body/div/div/div/div/div/div/p/a at Line 199, column 305: The link 'subscriptionTopic-cdex-task-update.xml' for "raw xml" cannot be resolved
+ERROR: /home/runner/work/SubscriptionTopic-Sandbox/SubscriptionTopic-Sandbox/output/SubscriptionTopic-us-core-immunization.html#/html/body/div/div/div/div/div/div/p/a at Line 199, column 374: The link 'subscriptionTopic-cdex-task-update.json' for "raw json" cannot be resolved
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/ImplementationGuide-hl7.fhir.us.subscriptiontopic-sandbox.json ==
+ERROR: ImplementationGuide/hl7.fhir.us.subscriptiontopic-sandbox: ImplementationGuide: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== input/resources/SubscriptionTopic-us-core-encounter.json ==
+ERROR: SubscriptionTopic.where(url = 'http://hl7.org/fhir/us/core/SubscriptionTopic/us-core-encounter'): Conformance resource /home/runner/work/SubscriptionTopic-Sandbox/SubscriptionTopic-Sandbox/input/resources/SubscriptionTopic-us-core-encounter.json - the canonical URL (http://hl7.org/fhir/us/subscription-sandbox/SubscriptionTopic/us-core-encounter) does not match the URL (http://hl7.org/fhir/us/core/SubscriptionTopic/us-core-encounter)
+ERROR: SubscriptionTopic/us-core-encounter: SubscriptionTopic.eventTrigger[0]: SubscriptionTopic.eventTrigger.event: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/SubscriptionTopic|5.0.0)
+ERROR: SubscriptionTopic/us-core-encounter: SubscriptionTopic.eventTrigger[0]: SubscriptionTopic.eventTrigger.resource: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/SubscriptionTopic|5.0.0)
+ERROR: /home/runner/work/SubscriptionTopic-Sandbox/SubscriptionTopic-Sandbox/input/resources/SubscriptionTopic-us-core-encounter: URL Mismatch http://hl7.org/fhir/us/subscription-sandbox/SubscriptionTopic/us-core-encounter vs http://hl7.org/fhir/us/core/SubscriptionTopic/us-core-encounter
+== input/resources/SubscriptionTopic-us-core-immunization.json ==
+ERROR: SubscriptionTopic.where(url = 'http://hl7.org/fhir/us/core/SubscriptionTopic/us-core-immunization'): Conformance resource /home/runner/work/SubscriptionTopic-Sandbox/SubscriptionTopic-Sandbox/input/resources/SubscriptionTopic-us-core-immunization.json - the canonical URL (http://hl7.org/fhir/us/subscription-sandbox/SubscriptionTopic/us-core-immunization) does not match the URL (http://hl7.org/fhir/us/core/SubscriptionTopic/us-core-immunization)
+ERROR: SubscriptionTopic/us-core-immunization: SubscriptionTopic.eventTrigger[0]: SubscriptionTopic.eventTrigger.event: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/SubscriptionTopic|5.0.0)
+ERROR: SubscriptionTopic/us-core-immunization: SubscriptionTopic.eventTrigger[0]: SubscriptionTopic.eventTrigger.resource: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/SubscriptionTopic|5.0.0)
+ERROR: /home/runner/work/SubscriptionTopic-Sandbox/SubscriptionTopic-Sandbox/input/resources/SubscriptionTopic-us-core-immunization: URL Mismatch http://hl7.org/fhir/us/subscription-sandbox/SubscriptionTopic/us-core-immunization vs http://hl7.org/fhir/us/core/SubscriptionTopic/us-core-immunization
