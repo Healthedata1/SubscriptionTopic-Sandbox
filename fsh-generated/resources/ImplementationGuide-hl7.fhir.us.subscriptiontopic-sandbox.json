@@ -1,0 +1,173 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "hl7.fhir.us.subscriptiontopic-sandbox",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode": "trial-use"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+      "valueInteger": 0
+    }
+  ],
+  "url": "http://hl7.org/fhir/us/subscription-sandbox/ImplementationGuide/hl7.fhir.us.subscriptiontopic-sandbox",
+  "version": "0.0.0",
+  "name": "STSandbox",
+  "title": "ST Sandbox",
+  "status": "active",
+  "publisher": "HL7 International / Cross-Group Projects",
+  "contact": [
+    {
+      "name": "HL7 International / Cross-Group Projects",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.hl7.org/Special/committees/cgp"
+        },
+        {
+          "system": "email",
+          "value": "cgp@lists.HL7.org"
+        }
+      ]
+    },
+    {
+      "name": "Health eData Inc",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "mailto:ehaas@healthedatainc.com"
+        }
+      ]
+    }
+  ],
+  "description": "This is a sandbox IG for drafting SubscriptionTopic",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "code": "US",
+          "system": "urn:iso:std:iso:3166"
+        }
+      ]
+    }
+  ],
+  "copyright": "Used by permission of HL7 International, all rights reserved Creative Commons License",
+  "packageId": "hl7.fhir.us.subscriptiontopic-sandbox",
+  "license": "CC0-1.0",
+  "fhirVersion": [
+    "4.0.1"
+  ],
+  "dependsOn": [
+    {
+      "packageId": "hl7.cda.us.ccda",
+      "uri": "http://hl7.org/cda/stds/core/ImplementationGuide/hl7.cda.uv.core",
+      "version": "3.0.0",
+      "id": "hl7_cda_us_ccda"
+    },
+    {
+      "id": "backport",
+      "packageId": "hl7.fhir.uv.subscriptions-backport.r4",
+      "uri": "http://hl7.org/fhir/uv/subscriptions-backport/ImplementationGuide/hl7.fhir.uv.subscriptions-backport",
+      "version": "1.1.0"
+    }
+  ],
+  "definition": {
+    "resource": [
+      {
+        "reference": {
+          "reference": "SubscriptionTopic/us-core-encounter"
+        },
+        "description": "This topic allows subscribers to receive notifications for the US Core Encounter events represented by US Core US Core Encounter Profile, including create, update, and delete interactions.",
+        "exampleBoolean": false,
+        "name": "US Core Encounter Subscription Topic"
+      },
+      {
+        "reference": {
+          "reference": "SubscriptionTopic/us-core-immunization"
+        },
+        "description": "This topic allows subscribers to receive notifications for the US Core Immunization events represented by US Core US Core Immunization Profile, including create, update, and delete interactions.",
+        "exampleBoolean": false,
+        "name": "US Core Immunization Subscription Topic"
+      }
+    ],
+    "page": {
+      "nameUrl": "toc.html",
+      "title": "Table of Contents",
+      "generation": "html",
+      "page": [
+        {
+          "nameUrl": "index.html",
+          "title": "Home",
+          "generation": "markdown"
+        }
+      ]
+    },
+    "parameter": [
+      {
+        "code": "copyrightyear",
+        "value": "2024+"
+      },
+      {
+        "code": "releaselabel",
+        "value": "CI Build"
+      },
+      {
+        "code": "path-expansion-params",
+        "value": "../../input/_resources/exp-params.json"
+      },
+      {
+        "code": "show-inherited-invariants",
+        "value": "true"
+      },
+      {
+        "code": "usage-stats-opt-out",
+        "value": "true"
+      },
+      {
+        "code": "path-output",
+        "value": "output"
+      },
+      {
+        "code": "path-resource",
+        "value": "input/resources"
+      },
+      {
+        "code": "path-resource",
+        "value": "fsh-generated/resources"
+      },
+      {
+        "code": "path-resource",
+        "value": "input/intro-notes"
+      },
+      {
+        "code": "path-liquid",
+        "value": "input/images/liquid"
+      },
+      {
+        "code": "excludexml",
+        "value": "true"
+      },
+      {
+        "code": "excludejson",
+        "value": "false"
+      },
+      {
+        "code": "excludettl",
+        "value": "true"
+      },
+      {
+        "code": "excludemap",
+        "value": "true"
+      },
+      {
+        "code": "propagate-status",
+        "value": "true"
+      },
+      {
+        "code": "path-history",
+        "value": "http://hl7.org/fhir/us/subscription-sandbox/history.html"
+      }
+    ]
+  }
+}
